@@ -1,5 +1,6 @@
 # Computer-vision-
-1,2. cropped orignal picture, change to garyscale
+1. cropped orignal picture
+2. changed to garyscale
 3. read from bianry, change to 2d array, filtered all single blak pixel with 0 neighboour in a 3x3 box
 4. find text skeletion as filled with white holes, only show white pixels with above 6 black neighboor in a 3x3 box.
 
