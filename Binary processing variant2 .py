@@ -141,7 +141,7 @@ def start():
     #             if count >= 5:
     #                 final_list[x][y] = 0
     
-    '''
+    '''Show white holes Captcha filled inside characters, 3x3 box over 6 black neighbours'''
 
     for x in range(len(final_list)):
         for y in range(len(final_list[x])):
@@ -206,28 +206,7 @@ def start():
                 final_list[x][y] =0
             if final_list[x][y] == 244:
                 final_list[x][y] =255
-    # for x in range(len(final_list)):
-    #     for y in range(len(final_list[x])):
-    #         count = 0
-    #         if final_list[x][y] == 255:
-    #             try:
-    #                 if final_list[x][y - 1] == 0:
-    #                     count += 1
-    #             except:
-    #                 pass
-    #             try:
-    #                 if final_list[x][y + 1] == 0:
-    #                     count += 1
-    #             except:
-    #                 pass
-    #             try:
-    #                 if  final_list[x - 1][y] == 0:
-    #                     count += 1
-    #             except:
-    #                 # no up
-    #                 pass
-    #             try:
-    #                 if  final_list[x + 1][y] == 0:
+:
     #                     count += 1
     #             except:
     #                 pass
