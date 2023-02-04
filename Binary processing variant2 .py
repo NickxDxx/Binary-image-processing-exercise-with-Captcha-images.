@@ -351,16 +351,8 @@ def start():
     
     
     
-    # list1 = list(image2.getdata())
-    # final_list = []
-    # for time in range(0,70):
-    #     row = list1[:240]
-    #     final_list.append(row)
-    #     del list1[:240]
-    # # for x in final_list:
-    # #     with open("varient filter 2s .csv", 'a', newline="") as file:
-    # #         writer = csv.writer(file)
-    # #         writer.writerow(x)
+
+
     # image2.save("Pillow.png")
     # image3 = cv2.imread("Pillow.png", cv2.IMREAD_GRAYSCALE)
     # contours, hierarchy = cv2.findContours(image3, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
