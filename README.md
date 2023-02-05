@@ -1,4 +1,4 @@
-# Computer-vision-
+
 1. cropped orignal picture
 2. changed to garyscale
 3. read from bianry, change to 2d array, filtered all single blak pixel with 0 neighboour in a 3x3 box
